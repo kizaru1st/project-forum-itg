@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
     <div class="l-form">
@@ -18,6 +18,17 @@
                 <form action="" class="form__content">
                     <!-- Judul -->
                     <h1 class="form__title">Welcome to <span style="font-family: Shrikhand, cursive;">ITG</span> Community</h1>
+                    <!-- Email -->
+                    <div class="form__div ">
+                        <div class="form__icon">
+                            <i class='bx bx-mail-send'></i>
+                        </div>
+                        <div class="form__div-input editForm">
+                            <label for="" class="form__label">Email</label>
+                            <input type="email" class="form__input">
+                        </div>
+                    </div>
+                    <!-- Final Email -->
                     <!-- Username -->
                     <div class="form__div form__div-one">
                         <div class="form__icon">
@@ -40,14 +51,23 @@
                         </div>
                     </div>
                     <!-- Final Password -->
-                    <a href="#" class="form__forgot">Forgot Password?</a>
+                    <!-- Re-Password -->
+                    <div class="form__div">
+                        <div class="form__icon">
+                            <i class='bx bx-lock-alt' ></i>
+                        </div>
+                        <div class="form__div-input editForm">
+                            <label for="" class="form__label">Enter Password again</label>
+                            <input type="password" class="form__input">
+                        </div>
+                    </div>
+                    <!-- Final RePassword -->
+                    <a href="#" class="form__forgot">Already have account?</a>
                     <!-- <input type="submit" class="form__button bttn-fill bttn-md bttn-primary" value="Login"> -->
-                    <button class="form__button bttn-fill bttn-md bttn-primary editBtn">Login</button>
+                    <button class="form__button bttn-fill bttn-md bttn-primary editBtn">Sign Up</button>
                     <!-- Login Method -->
                     <div class="form__social">
-                        <span href="#" class="form__social-text">
-                            <a href="#" class="form__forgot">Create new Account</a>Another Method
-                        </span>
+                        <span class="form__social-text">Another Method</span>
                         <a href="#" class="form__social-icon"><i class='bx bxl-facebook' ></i></a>
                         <a href="#" class="form__social-icon"><i class='bx bxl-google' ></i></a>
                         <a href="#" class="form__social-icon"><i class='bx bxl-instagram' ></i></a>
