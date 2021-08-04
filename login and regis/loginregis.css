@@ -437,7 +437,3 @@ img{
 .editBtn:hover {
     color: var(--first-color) !important;
 }
-.form__regis:hover{
-    color: var(--first-color);
-    transition: .5s;
-}
