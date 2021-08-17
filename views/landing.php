@@ -6,11 +6,11 @@
         <!--========== BOX ICONS ==========-->
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <!--========== CSS ==========-->
-        <link rel="stylesheet" href="./landing.css">
+        <link rel="stylesheet" href="./assets/css/landing.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-        <title>Responsive landing page</title>
+        <title>Forum IT Gabut</title>
     </head>
     <body id="topMenu">
         <!--========== SCROLL TOP ==========-->
@@ -28,7 +28,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#share" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#decoration" class="nav__link">Feature</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Login</a></li>
+                        <li class="nav__item"><a href="/login" class="nav__link">Login</a></li>
                         <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__img">
-                        <img src="./img/Team meeting_Monochromatic.png" alt="">
+                        <img src="./assets/img/Team meeting_Monochromatic.png" alt="">
                     </div>
                     <div class="home__data">
                         <h1 class="home__title">Lorem ipsum dolor sit amet.</h1>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="share__img">
-                        <img src="./img/Brainstorming session _Monochromatic.png" alt="">
+                        <img src="./assets/img/Brainstorming session _Monochromatic.png" alt="">
                     </div>
                 </div>
             </section>
@@ -72,17 +72,17 @@
                 <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
                 <div class="decoration__container bd-grid">
                     <div class="decoration__data">
-                        <img src="./img/Chat_Flatline.png" alt="" class="decoration__img">
+                        <img src="./assets/img/Chat_Flatline.png" alt="" class="decoration__img">
                         <h3 class="decoration__title">Lorem, ipsum dolor.</h3>
                     </div>
 
                     <div class="decoration__data">
-                        <img src="./img/Video call_Flatline.png" alt="" class="decoration__img">
+                        <img src="./assets/img/Video call_Flatline.png" alt="" class="decoration__img">
                         <h3 class="decoration__title">Lorem, ipsum dolor.</h3>
                     </div>
 
                     <div class="decoration__data">
-                        <img src="./img/World Connection _Two Color.png" alt="" class="decoration__img">
+                        <img src="./assets/img/World Connection _Two Color.png" alt="" class="decoration__img">
                         <h3 class="decoration__title">Lorem, ipsum dolor.</h3>
                     </div>
                 </div>
@@ -97,6 +97,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--========== MAIN JS ==========-->
-        <script src="./landing.js"></script>
+        <script src="./assets/js/landing.js"></script>
     </body>
 </html>
