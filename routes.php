@@ -11,6 +11,7 @@ require_once("{$_SERVER['DOCUMENT_ROOT']}/router.php");
 // The output -> Index
 get('/', './views/landing.php');
 get('/login', './views/login.php');
+get('/regis', './views/regis.php');
 
 // Dynamic GET. Example with 1 variable
 // The $id will be available in user.php
