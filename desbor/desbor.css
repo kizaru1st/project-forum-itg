@@ -1,0 +1,20 @@
+.judulNanya {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+.timeStamp_title {
+    font-size: small;
+}
+
+.list-tag {
+    margin-top: -10px;
+}
+
+.card-shadow {
+    border-radius: 0px !important;
+    background: #f1f1f1 !important;
+    box-shadow:  1px 1px 3px #e4dfdf,
+                 -1px -1px 3px #e4dfdf !important;
+}
